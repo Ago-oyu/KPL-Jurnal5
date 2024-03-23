@@ -11,6 +11,11 @@ namespace modul5_1302220101
         public static void Main(string[] args)
         {
             Penjumlahan.JumlahTigaAngka<float>(13, 02, 22);
+            SimpleDataBase<float> SDB = new SimpleDataBase<float>();
+            SDB.AddNewData(13);
+            SDB.AddNewData(02);
+            SDB.AddNewData(22);
+            SDB.PrintAllData();
         }
     }
 }
